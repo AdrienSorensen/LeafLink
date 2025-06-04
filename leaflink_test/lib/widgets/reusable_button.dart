@@ -5,7 +5,7 @@ class ReusableButton extends StatelessWidget {
   final String label;
   final VoidCallback onPressed;
 
-  const ReusableButton({
+  const ReusableButton({super.key, 
     required this.icon,
     required this.label,
     required this.onPressed,

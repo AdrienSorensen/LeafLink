@@ -6,6 +6,8 @@ void main() {
 }
 
 class LeafLinkApp extends StatelessWidget {
+  const LeafLinkApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

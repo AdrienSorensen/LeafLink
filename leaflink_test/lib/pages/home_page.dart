@@ -6,6 +6,8 @@ import 'wallet_page.dart';
 import '../widgets/reusable_button.dart';
 
 class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
